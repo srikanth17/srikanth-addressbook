@@ -1,3 +1,26 @@
+## Application
+
+This application is built on ES6 JavaScript using React and TypeScript & bootstrapped by create react app. Information about the _create-react-app_ & to run this application is mentioned in the later part of this document.
+
+## Directory Structure
+
+All the TS code live in _/src/_ directory. _index.tsx_ is the entry point for the application, all other files are imported when they are necessary. I've added components & other files to their respective sub-directories. This allows us to manage the code easily.
+
+## Redux Store
+
+I've used redux toolkit to create the Redux store. The reducer and actions are in one place. So, it's easy to manage. It's configure in _/src/store/_
+
+## Components
+
+1. App - Home page of the application. Allows to add new address & shows the list of added addresses
+2. Header - Renders the header part of the application
+3. Form - Used to add a address (manual entry or from API)
+4. AddressList - Shows the list of addresses
+
+## Styling
+
+Used material UI to style the application
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
