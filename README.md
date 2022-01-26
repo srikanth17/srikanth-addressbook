@@ -1,6 +1,14 @@
 ## Application
 
+I've created a address book to store the addresses which can be entered manually or via postcode lookup.
+
 This application is built on ES6 JavaScript using React and TypeScript & bootstrapped by create react app. Information about the _create-react-app_ & to run this application is mentioned in the later part of this document.
+
+## API Key
+
+Please get a API key from https://getaddress.io (sign up with an email to get free trial) & create a `.env.local` file in the root directory. Inside that file add your API key with this name
+
+API_SECRET=YOUR-API-KEY. This key is used inside the `utils.ts` file.
 
 ## Directory Structure
 

@@ -15,11 +15,3 @@ const addressesSlice = createSlice({
 const { actions, reducer } = addressesSlice;
 export const { addAddress } = actions;
 export default reducer;
-
-// export const postPayment = payment => async dispatch => {
-//   const response = await addPayment(payment);
-//   if (response.ok) {
-//     const data = await response.json();
-//     dispatch(addAddress(data));
-//   }
-// };
